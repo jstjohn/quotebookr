@@ -1,5 +1,5 @@
 <?php echo $html->docType('xhtml-trans'); ?>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
 <head>
 	<?php echo $html->charset(); ?>
 	<title>
@@ -7,18 +7,22 @@
 	</title>
 	<?php
 		echo $html->meta('icon');
-		//echo $html->css('cake');
+		echo $html->css('cake.generic');
 		echo $html->css('light-style');
 		echo $html->css('app');
+		
 		echo $scripts_for_layout;
 	?>
 </head>
-
+<body>
 <div id="wrapper">
 	<div class="content">
 		<div id="menu">
 			<ul>
 				<li><?php echo $html->link('Home', '/') ?></li>
+				<li><?php echo $html->link('Quotes', '/quotes') ?></li>
+				<li><?php echo $html->link('Authors', '/authors') ?></li>
+				<li><?php echo $html->link('New', '/quotes/add') ?></li>
 				<li><?php echo $html->link('About', '/app/about') ?></li>
 			</ul>
 
@@ -106,9 +110,9 @@
 
 	<div id="footer">
 		<div class="to_top">
-			<a href="#menu" title="Top of Page">&nbsp;</a>
+			<a href="#menu" title="Top of Page" />
 		</div>
-		<p>CC-BY 2008 foobarlroum foobarlroum foobarlroum foobarlroum foobarlroum foobarlroum foobarlroum foobarlroum foobarlroum foobarlroum</p>
+		<p><a href="http://creativecommons.org/licenses/by-nc/3.0/">cc-by-na 2008</a></p>
 	</div>
 </div>
 </body>

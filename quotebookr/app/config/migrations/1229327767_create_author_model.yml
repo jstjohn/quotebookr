@@ -1,0 +1,12 @@
+#
+# migration YAML file
+#
+UP:
+  create_table:
+    authors:
+      name: string
+    authors_quotes:
+      author_id: integer
+      quote_id: integer
+DOWN:
+  drop_table: [authors, authors_quotes]
