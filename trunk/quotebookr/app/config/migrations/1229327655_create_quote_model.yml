@@ -1,0 +1,9 @@
+#
+# migration YAML file
+#
+UP:
+  create_table:
+    quotes:
+      quote: text
+DOWN:
+  drop_table: quotes
