@@ -1,7 +1,11 @@
 <?php
 class AppController extends Controller {
     var $components = array('DebugKit.Toolbar');
-	var $layout = 'pocket';
+	
+	// Enable themes
+	var $view = 'theme';
+	var $layout = 'default';
+	var $theme = 'inove';
 
 	function flash($msg,$to){
 		$this->Session->setFlash($msg);

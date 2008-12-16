@@ -101,7 +101,7 @@
 
 	</div>
 	<div id="search">
-		<form method="get" id="searchform" action="http://journal.auzigog.com/">
+		<form method="get" id="searchform" action="#">
 			<div>
 				<input type="text" value="Search for something, type and hit enter" name="s" id="s" onfocus="if (this.value == 'Search for something, type and hit enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search for something, type and hit enter';}" />
 			</div>
@@ -112,7 +112,7 @@
 		<div class="to_top">
 			<a href="#menu" title="Top of Page" />
 		</div>
-		<p><a href="http://creativecommons.org/licenses/by-nc/3.0/">cc-by-na 2008</a></p>
+		<p><a href="http://creativecommons.org/licenses/by-nc/3.0/">cc-by-nc 2008</a></p>
 	</div>
 </div>
 </body>
