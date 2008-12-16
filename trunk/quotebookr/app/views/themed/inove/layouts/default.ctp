@@ -80,6 +80,7 @@
 			<?php echo $content_for_layout ?>
 		</div>
 
+		<!--
 		<div class="post" id="post-64">
 			<h2><a class="title" href="http://journal.auzigog.com/2008/11/11/quote-archive/" rel="bookmark">Quote Archive</a></h2>
 			<div class="info">
@@ -126,6 +127,7 @@ The important thing to note, however, is that birth control is not the issue. Th
 			<span class="older"><a href="http://journal.auzigog.com/page/2/">Older Entries</a></span>
 			<div class="fixed"></div>
 		</div>
+		-->
 
 	</div>
 	<!-- main END -->
