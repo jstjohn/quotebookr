@@ -5,4 +5,6 @@ echo $form->input('quote');
 echo $form->input('author');
 echo $form->end('Save');
 
+echo $html->link('Import quotes in bulk', '/quotes/import');
+
 ?>
