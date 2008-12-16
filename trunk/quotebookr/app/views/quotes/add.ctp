@@ -1,3 +1,4 @@
+<h2>Add quote</h2>
 <?php
 
 echo $form->create('Quote');

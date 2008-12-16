@@ -349,6 +349,7 @@ h2 a.title:hover {
 .readingblinds,
 .comments,
 .addcomment,
+.addquote,
 .editlinks {
 	background:url(../img/icons.gif) no-repeat;
 	padding-left:22px;
@@ -385,6 +386,9 @@ h2 a.title:hover {
 	background-position:0 -96px;
 }
 .addcomment {
+	background-position:0 -112px;
+}
+.addquote {
 	background-position:0 -112px;
 }
 .editlinks {
