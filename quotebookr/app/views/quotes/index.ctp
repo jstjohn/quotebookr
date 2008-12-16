@@ -3,9 +3,10 @@
 	<div class="act">
 		<span class="addquote"><?php echo $html->link('Add quote', '/quotes/add'); ?></span>
 	</div>
+	<div class="fixed" ></div>
 </div>
 <?php foreach($quotes as $quote) : ?>
-	<p>
+	<blockquote>
 		<?php echo $quote['Quote']['quote']; ?>
-	</p>
+	</blockquote>
 <?php endforeach; ?>

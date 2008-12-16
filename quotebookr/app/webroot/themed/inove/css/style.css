@@ -339,6 +339,11 @@ h2 a.title:hover {
 .info {
 	margin:5px;
 }
+
+.info span {
+	float: left;
+}
+
 .info span.first {
 	margin-left:0;
 }
